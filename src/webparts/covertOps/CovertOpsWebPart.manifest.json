@@ -1,0 +1,23 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx/client-side-web-part-manifest.schema.json",
+  "id": "1f973cc8-c7c9-4646-a7fd-854fcec8eb1a",
+  "alias": "CovertOpsWebPart",
+  "componentType": "WebPart",
+  "version": "*",
+  "manifestVersion": 2,
+  "requiresCustomScript": false,
+  "supportedHosts": ["SharePointWebPart", "TeamsPersonalApp", "TeamsTab", "SharePointFullPage"],
+  "supportsFullBleed": true,
+  "supportsThemeVariants": true,
+
+  "preconfiguredEntries": [{
+    "groupId": "5c03119e-3074-46fd-976b-c60198311f70",
+    "group": { "default": "Other" },
+    "title": { "default": "CovertOps" },
+    "description": { "default": "CovertOps description" },
+    "officeFabricIconFontName": "Page",
+    "properties": {
+      "description": "CovertOps"
+    }
+  }]
+}

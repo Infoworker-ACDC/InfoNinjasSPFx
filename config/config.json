@@ -1,0 +1,18 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "covert-ops-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/covertOps/CovertOpsWebPart.js",
+          "manifest": "./src/webparts/covertOps/CovertOpsWebPart.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "CovertOpsWebPartStrings": "lib/webparts/covertOps/loc/{locale}.js"
+  }
+}
